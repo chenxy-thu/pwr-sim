@@ -10,6 +10,6 @@ The file "PWRSIM_simulation_demo.m" is the simulation of PWR-SIM.
 
 The file "polarization_components_generation.m" is to generated the polarization components from raw SIM images and prepared the dataset for spatial-angular deconvolution.
 
-The directional PSF and polarization components can also be generated from the fairSIM plugin in ImageJ. The guide for how to generate this is to be updated.
+The directional PSF and polarization components can also be generated from the fairSIM plugin in ImageJ. The code and detailed instruction is in file "polarization_components_load_from_fairSIM.m".
 
 For any question, please contact Xingye Chen, chenxy16@mails.tsinghua.edu.cn
