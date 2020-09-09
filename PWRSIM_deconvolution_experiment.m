@@ -21,5 +21,5 @@ end
 mkdir(saveDir);
 
 % use SIM images as the initial guess for the deconvolution
-sr = spatial_angular_deconv_expr(sr_wi_apo, sim, psf, theta_deconvolution, n_iter, lk, saveDir); 
+sr = spatial_angular_deconv_expr(polarization_components, sim, psf, theta_deconvolution, n_iter, lk, saveDir); 
 save([saveDir, 'data.mat']);
